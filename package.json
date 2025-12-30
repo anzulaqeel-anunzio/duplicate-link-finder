@@ -1,0 +1,24 @@
+{
+    "name": "awesome-duplicate-finder",
+    "version": "1.0.0",
+    "description": "Finds duplicate links in Markdown files",
+    "main": "index.js",
+    "bin": {
+        "awesome-duplicate-finder": "./index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "awesome-list",
+        "duplicates",
+        "link-checker",
+        "markdown"
+    ],
+    "author": "Anzul Aqeel",
+    "license": "MIT",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "commander": "^9.4.1"
+    }
+}
